@@ -11,5 +11,13 @@ M.table.slice = function(tbl, first, last, step)
 
 	return sliced
 end
+M.get_indentation_offset = function(line)
+	local start, _end = string.find(line, "[^\t%s]")
+	if start == nil and _end == nil then
+		return ""
+	else
+		return _end
+	end
+end
 
 return M

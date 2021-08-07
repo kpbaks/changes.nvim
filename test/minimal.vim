@@ -1,6 +1,9 @@
 set hidden
 set noswapfile
 set number
+set termguicolors
+set expandtab
+set tabstop=4
 
 set rtp=$VIMRUNTIME
 set rtp+=../changes.nvim
