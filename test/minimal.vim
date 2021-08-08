@@ -5,6 +5,8 @@ set termguicolors
 set expandtab
 set tabstop=4
 
+filetype plugin indent on
+
 set rtp=$VIMRUNTIME
 set rtp+=../changes.nvim
 
